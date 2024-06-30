@@ -78,7 +78,7 @@ const PodcastDetailModal = ({ podcast, isOpen, onClose }: PodcastDetailModal) =>
           </Flex>
         </ModalBody>
         <ModalFooter>
-          <Button onClick={onClose}>Close</Button>
+          <Button onClick={onClose}>Закрыть</Button>
         </ModalFooter>
       </ModalContent>
     </Modal>

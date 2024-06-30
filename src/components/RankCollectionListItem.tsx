@@ -138,7 +138,7 @@ const RankCollectionListItem = (props: RankCollectionListItemProps) => {
                       toggleCollectionModal({ id: String(collectionId), open: true })
                     }
                   >
-                    Information
+                    Информация
                   </MenuItem>
                   {favorites.find((favorite) => favorite.collectionId === collectionId) ? (
                     <MenuItem

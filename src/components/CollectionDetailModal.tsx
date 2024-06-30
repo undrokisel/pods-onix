@@ -129,7 +129,7 @@ const CollectionDetailModal = () => {
         <ModalCloseButton />
         <ModalBody>{renderDetail()}</ModalBody>
         <ModalFooter>
-          <Button onClick={() => toggleCollectionModal({ open: false })}>Close</Button>
+          <Button onClick={() => toggleCollectionModal({ open: false })}>Закрыть</Button>
         </ModalFooter>
       </ModalContent>
     </Modal>

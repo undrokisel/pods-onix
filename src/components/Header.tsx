@@ -1,4 +1,4 @@
-import { Container, Flex, Icon, IconButton, useColorMode } from '@chakra-ui/react';
+import { Container, Flex, Icon, Text, IconButton, useColorMode } from '@chakra-ui/react';
 import { observer } from 'mobx-react';
 import { useRouter } from 'next/router';
 import { RiMenuLine } from 'react-icons/ri';
@@ -38,6 +38,23 @@ const Header = () => {
       >
         <Flex cursor='pointer' onClick={() => router.push('/')}>
           <Logo />
+        </Flex>
+
+        <Flex
+          align='center'
+          gap={[1, 4]}
+          direction={['column', 'row']}
+          fontSize={['16px', '22px']}
+        >
+          <Text fontWeight='semibold' cursor='pointer' onClick={() => router.push('/about')}>
+            О нас
+          </Text>
+          <Text fontWeight='semibold' cursor='pointer' onClick={() => router.push('/contacts')}>
+            Контакты
+          </Text>
+          <Text fontWeight='semibold' cursor='pointer' onClick={() => router.push('/faq')}>
+            FAQ
+          </Text>
         </Flex>
 
         <IconButton aria-label='Menu' onClick={openDrawer} size='sm'>
