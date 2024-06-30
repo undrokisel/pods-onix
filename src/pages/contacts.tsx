@@ -2,8 +2,8 @@ import type { NextPage } from 'next';
 import { observer } from 'mobx-react';
 import { ColorModeProvider } from '@chakra-ui/react';
 import { FiPhoneCall } from 'react-icons/fi';
-import { MdOutlineEmail } from 'react-icons/md';
-import { HiBuildingOffice2 } from 'react-icons/hi2';
+import { MdOutlineEmail, MdHouse  } from 'react-icons/md';
+
 
 import {
   Container,
@@ -65,7 +65,7 @@ const Contacts: NextPage = () => {
         </Flex>
 
         <Flex align='center' gap={4} userSelect='none' alignItems='center'>
-          <Icon as={HiBuildingOffice2} fontSize='36px' color='white' />
+          <Icon as={MdHouse} fontSize='36px' color='white' />
           <Text fontSize='xl' fontWeight={300} color='white'>
             г. Пермь, ул. Пушкина, д. 113.
           </Text>
