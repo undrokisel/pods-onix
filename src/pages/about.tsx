@@ -18,7 +18,6 @@ const About: NextPage = () => {
   return (
     <Flex align='center' alignItems='center' justifyContent='center' mt={4}
     bgImage="/about-bg.jpg" bgPosition="top" bgRepeat="no-repeat" bgSize="cover"
-    bgOpacity={0.1}
     >
       <Flex
         w='100%'

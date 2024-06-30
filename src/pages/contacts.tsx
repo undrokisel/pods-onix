@@ -33,7 +33,6 @@ const Contacts: NextPage = () => {
       bgPosition='top'
       bgRepeat='no-repeat'
       bgSize='cover'
-      bgOpacity={0.1}
     >
       <Flex
         w='100%'
