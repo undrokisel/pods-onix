@@ -55,7 +55,7 @@ const Faq: NextPage = () => {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel align='left' color='white' bg='cyan.700'>
+            <AccordionPanel style={{ textAlign: 'left' }} color='white' bg='cyan.700'>
               Чтобы найти подкаст определенной тематики:
               <br /> 1) перейдите на главную страницу
               <br /> 2) в выпадающем списке выберите страну
@@ -73,7 +73,7 @@ const Faq: NextPage = () => {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel align='left' color='white' bg='cyan.700'>
+            <AccordionPanel style={{ textAlign: 'left' }} color='white' bg='cyan.700'>
               Чтобы просмотреть информацию о подкасте нажмите на три точки в правом нижнем углу,
               <br />
               после чего откроется всплывающее окно, в котором выберите -Информация-. <br />
@@ -91,7 +91,7 @@ const Faq: NextPage = () => {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel align='left' color='white' bg='cyan.700'>
+            <AccordionPanel style={{ textAlign: 'left' }} color='white' bg='cyan.700'>
               Чтобы добавить подкаст в избранное нажмите на три точки в правом нижнем углу,
               <br />
               после чего откроется всплывающее окно, в котором выберите -Добавить в избранное-.{' '}
